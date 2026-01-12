@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.tar
+docker-compose.override.yml
+.env
+
+# Kubernetes / Helm
+*.yaml
+*.yml
+*.tpl
+*.tgz
+
+# Jenkins
+*.war
+*.log
+.jenkins/
+workspace/
+jobs/
+
+# Terraform / IaC (even if future modules)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Monitoring / Grafana
+*.db
+*.sqlite
+*.json
+
+# Security / sensitive info
+*.key
+*.pem
+*.crt
+*.env
+
+# General
+.DS_Store
+Thumbs.db
